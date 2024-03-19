@@ -1,0 +1,68 @@
+.contact{
+  margin-left: 130px;
+  height:600px;
+  
+  box-shadow: 0px 4px 8px 1px black;
+  border-radius: 20px;
+  width: 90%;
+
+
+}
+
+.inputbox{
+  padding-top: 13px;
+  border-radius: 20px;
+ 
+}
+
+
+.img{
+  border-top-left-radius: 25px;
+  width: 100%;
+  height: 600px;
+  border-bottom-left-radius: 25px;
+  margin-left: -11px;
+  
+  }
+  .input{
+    border: 1px solid gray;
+  }
+  .textinput{
+    background-color: white;
+    border: 1px solid gray ;
+    height: 150px;
+   
+  }
+  .btn{
+    margin-top: 150px;
+  }
+  @media(max-width:600px){
+    .contact{
+      margin-left: 1px;
+      width: 100%;
+      height: 100%;
+      background-color: lightgray;
+    }
+    /*  */
+    .img{
+      width: 100%;
+      height: 100%;
+      border-radius: 20px;
+      
+      /* margin-left: -10px; */
+    }
+    .inputbox{
+      height: 100%;
+      width: 100%;
+      
+      
+    }
+    .textinput{
+      height: 100%;
+    }
+    .btn{
+      width: 100%;
+
+    }
+  }
+  

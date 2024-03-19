@@ -1,0 +1,65 @@
+.navbar-profile-pic img{
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: 3px solid lightgray;
+  margin-top: 20px;
+  background-color: red;
+  margin-left: 30px;
+  display: flex;
+  vertical-align: middle;
+  /* margin: 0 auto; */
+
+}
+.nav-items{
+  color: lightgray;
+  font-size: 25px;
+  margin-left: 2px; 
+}
+.nav-link{
+  margin-top: 40px;
+  cursor: pointer;
+  
+}
+.nav-link svg{
+  margin-right: 5px;
+  
+}
+.nav-links{
+  margin-top: 40px;
+  cursor: pointer;
+  
+}
+.nav-links svg{
+  margin-left: 32px;
+  font-size: 35px;
+}
+.navbar-logo-pic img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-top: 50px;
+  border: 2px solid red;
+  margin-left: 27px;
+  
+}
+.nav-link .active{
+  color: red;
+  border-left: 3px solid red;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-left: 5px;
+  text-decoration: none;
+  background-color: lightgray;
+  padding-right: 20px;
+ 
+}
+.nav-links .active{
+  /* color: gold; */
+  border-right: 5px solid lightgray;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  border-radius: 40px;
+  padding-right: 10px;
+  text-decoration: none;
+}
